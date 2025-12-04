@@ -1,4 +1,4 @@
-const RADIO_NAME = 'Jailson Web Rádio';
+const RADIO_NAME = 'Rádio Vila Cemig';
 
 // Change Stream URL Here, Supports, ICECAST, ZENO, SHOUTCAST, RADIOJAR and any other stream service.
 const URL_STREAMING = 'https://radiovilacemig.ddns.net/listen/radiovilacemig.ddns.net/radio.mp3';
@@ -526,6 +526,7 @@ function intToDecimal(vol) {
 function decimalToInt(vol) {
     return vol * 100;
 } 
+
 
 
 
