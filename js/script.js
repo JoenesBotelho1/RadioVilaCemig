@@ -1,7 +1,7 @@
 const RADIO_NAME = 'Jailson Web Rádio';
 
 // Change Stream URL Here, Supports, ICECAST, ZENO, SHOUTCAST, RADIOJAR and any other stream service.
-const URL_STREAMING = 'https://stm8.xcast.com.br:10294/stream';
+const URL_STREAMING = 'https://radiovilacemig.ddns.net/listen/radiovilacemig.ddns.net/radio.mp3';
 
 //API URL /
 const API_URL = 'https://twj.es/free/?url='+URL_STREAMING;
@@ -526,5 +526,6 @@ function intToDecimal(vol) {
 function decimalToInt(vol) {
     return vol * 100;
 } 
+
 
 
